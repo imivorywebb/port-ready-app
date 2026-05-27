@@ -424,21 +424,22 @@ export default function Home() {
         {/* Header */}
 <div className="relative z-10 px-5 pt-6 pb-3 bg-zinc-900/75 backdrop-blur-xl">
 
-  <p className="text-blue-400 text-[11px] uppercase tracking-[0.28em]">
-    PORT-READY STATUS
+  <p className="text-blue-400 text-[21px] uppercase tracking-[0.28em]">
+    PORT-READY
   </p>
 
-  <h1 className="text-white text-[38px] leading-[0.92] font-semibold tracking-tight mt-3">
-    Owner Operator
-    Compliance
+  <h1 className="text-white text-[25px] leading-[0.92] font-semibold tracking-tight mt-3">
+    COMPLIANCE COMMAND
   </h1>
 
   <p className="text-zinc-400 text-lg leading-relaxed mt-4">
     Stay compliant. Avoid fines.
-    Keep pulling loads.
+    Keep Rolling
   </p>
 
 </div>
+
+<div className="w-full h-px bg-red-500/70" />
 
 {/* CARDS */}
 <div className="relative z-10 px-4 pt-0 pb-[140px] overflow-y-auto h-full space-y-3 scrollbar-hide">
